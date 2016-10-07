@@ -1,9 +1,9 @@
-# RPI Synology exporter
+# RPI Speedtest exporter
 
-* Master : [![Circle CI](https://circleci.com/gh/zeiot/rpi-syno_exporter/tree/master.svg?style=svg)](https://circleci.com/gh/zeiot/rpi-syno_exporter/tree/master)
-* Develop : [![Circle CI](https://circleci.com/gh/zeiot/rpi-syno_exporter/tree/develop.svg?style=svg)](https://circleci.com/gh/zeiot/rpi-syno_exporter/tree/develop)
+* Master : [![Circle CI](https://circleci.com/gh/zeiot/rpi-speedtest_exporter/tree/master.svg?style=svg)](https://circleci.com/gh/zeiot/rpi-speedtest_exporter/tree/master)
+* Develop : [![Circle CI](https://circleci.com/gh/zeiot/rpi-speedtest_exporter/tree/develop.svg?style=svg)](https://circleci.com/gh/zeiot/rpi-speedtest_exporter/tree/develop)
 
-Docker image of [syno_exporter][] to use on a [Raspberry PI][].
+Docker image of [speedtest_exporter][] to use on a [Raspberry PI][].
 
 Configure binfmt-support on the Docker host (works locally or remotely, i.e: using boot2docker):
 
@@ -11,7 +11,7 @@ Configure binfmt-support on the Docker host (works locally or remotely, i.e: usi
 
 Then you can run an armhf image from your x86_64 Docker host :
 
-    $ make run version=3.1
+    $ make run version=1.0
 
 Or build :
 
@@ -20,7 +20,7 @@ Or build :
 
 # Supported tags
 
-* [![](https://images.microbadger.com/badges/version/zeiot/rpi-syno_exporter.svg)](http://microbadger.com/images/zeiot/rpi-syno_exporter "Get your own version badge on microbadger.com")
+* [![](https://images.microbadger.com/badges/version/zeiot/rpi-speedtest_exporter.svg)](http://microbadger.com/images/zeiot/rpi-speedtest_exporter "Get your own version badge on microbadger.com")
 
 
 ## License
@@ -39,4 +39,4 @@ Nicolas Lamirault <nicolas.lamirault@gmail.com>
 
 
 [Raspberry PI]: https://www.raspberrypi.org/
-[syno_exporter]: https://github.com/nlamirault/syno_exporter
+[speedtest_exporter]: https://github.com/nlamirault/speedtest_exporter
